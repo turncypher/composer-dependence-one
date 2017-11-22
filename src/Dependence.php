@@ -6,7 +6,7 @@
  * Time: 上午11:45
  */
 
-namespace Dependence;
+namespace DependenceOne;
 
 class DependenceOne
 {

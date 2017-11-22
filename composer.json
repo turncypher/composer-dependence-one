@@ -1,12 +1,17 @@
 {
-    "name": "turncypher/composer-dependence-one",
-    "type": "library",
-    "authors": [
-        {
-            "name": "turncypher",
-            "email": "turncypher@gmail.com"
-        }
-    ],
-    "minimum-stability": "dev",
-    "require": {}
+  "name": "turncypher/composer-dependence-one",
+  "type": "library",
+  "authors": [
+    {
+      "name": "turncypher",
+      "email": "turncypher@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "DependenceOne\\": "src/"
+    }
+  }
 }
